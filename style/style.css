@@ -8,35 +8,51 @@
 body{
     width: 100%;
     height: 100%;
+    background-color:#10e3ea;
 }
-.titulo:hover{
-    width: 150%;
+h1:hover{
+    font-size: 20px;  
+}
+button:hover{
+    background-color: #10e3ea;
+    color:black;
+    font-size: 20px; 
+    
 }
 .menu{
-    border: 10px solide black;
+    width: 100%;
     display: flex;
     flex-direction:row;
-    justify-content: space-between; 
-    border: 1px solid;
-    background-color: #10e3ea;  
+    background-color: #000;
+    border-radius: 10px; 
 }
 .button{
-    display: flex;
-    align-items: space-between;
-    justify-content: space-around;
-    width: 200%;
+    display: flex; 
+    justify-content: flex-end;
+    width: 100%; 
+    align-items: center;
+    
+}
+.titulo{
+    display: flex; 
+    justify-content: flex-start;
+    width: 100%; 
+    align-items: center;
 }
 h1{  
-    width: 100%;
-    text-align: left;
-    font-size: 32px;
-    font-family: 'Rock 3D' , cursive;
-    border-radius: 1px; 
+    text-align:left;
+    width: min-content;
+    font-size: 18px;
+    font-family: 'Rock 3D' , cursive; 
+    color: darkorange;
 }
 button{
-    width: 150px;
-    height: 50px;
+    width:30%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px; 
-    color: #10e3ea;  
+    font-size: 16px; 
+    color: #10e3ea; 
+    border-radius: 10px;
+    margin-bottom: 0; 
+    text-align:ceter;
+    background-color: #000;
 }
