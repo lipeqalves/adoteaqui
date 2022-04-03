@@ -8,21 +8,22 @@
 body{
     padding: 5px;
     margin: 5px;
+    background-image: url(https://i.pinimg.com/originals/40/53/10/405310196f44fe68ca424418a41ba39f.png);
     background-color:#8FBC8F;
 }
 h1:hover{
     font-size: 18px;  
 }
 button:hover{
-    background-color: #10e3ea;
-    color:black;
+    background-color: #272343;
+    color:#ffd803;
     font-size: 20px; 
 }
 .menu{
     width: 100%;
     display: flex;
     flex-direction:row;
-    background-color: #A9A9A9;
+    background-color: #fffffe;
     border-radius: 5px; 
 }
 .button{
@@ -40,31 +41,50 @@ button:hover{
 h1{  
     margin: 5px;
     padding: 5px;
+    color: #272343;
     text-align:left;
     font-size: 18px;
     font-family: 'Rock 3D' , cursive; 
 }
+h2{
+    color: #272343; 
+    text-align:center;
+}
+
 button{
     width:30%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px; 
-    color: #10e3ea; 
+    color: #272343; 
     border-radius: 10px;
     margin-bottom: 0; 
     text-align:ceter;
-    background-color: #000;
+    background-color: #ffd803;
 }
 .rodape{
-        width: 99%;
-        position: absolute;
-        bottom: 0; 
+    width: 98%;
+    position: absolute;
+    bottom: 5px;
+    margin-left: -10px;
+    background-color: #fffffe; 
+    border-radius: 5px;
 }
+
 p{
     font-family: 'Courier New', Courier, monospace;
-    background-color: #A9A9A9;
     padding: 5px;
     margin: 5px;
+    color:#2d334a;
     text-align: right;
-    font-size: 13px;
-    border-radius: 5px;      
+    font-size: 13px;      
+}
+.home{
+    
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.mensagenscomamor.com/content/images/m000511278.jpg?v=1&w=463&h=308);
 }
