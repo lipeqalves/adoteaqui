@@ -1,0 +1,82 @@
+
+*{
+    margin: 0%;
+    padding: 0;
+}
+.site{
+    display:flex;
+    min-height: 100vh; 
+    flex-direction: column;
+}
+._header{
+    display:flex ; align-items: center; justify-content: space-between;
+    background-color: #191c03;
+    color: #c3c63b;
+}
+button:hover{
+    background-color: #c3c63b;
+    color:#191c03; 
+}
+
+._header h1:hover {
+    background-color: #c3c63b;
+    color:#191c03;
+    border-radius: 8px;
+}
+i{
+   padding: 2px;
+}
+button{
+    background-color: #191c03;
+    color: #c3c63b;
+    margin-right: 30px;  
+    border-radius: 8px;
+    padding: 5px;
+    width: 100px;
+}
+button :last-child{
+    margin-right: 0;
+}
+.bg2{
+    color: #c3c63b;
+    text-align: center;
+    width: 30%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg3{
+    display:flex; flex-direction:column; background-color: #191c03; padding: 5px 0;
+    align-items: center; color: #c3c63b;
+    }
+footer ul {
+    display:flex; 
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+footer ul li{
+    margin-right: 10px;
+}
+footer ul li:last-child {
+    margin-right: 0;
+}
+.bg3 footer p {
+    color: #c3c63b;
+    text-align: center;
+}
+.site-conteiner{
+    padding: 10px;
+    margin: 10px;
+    background-image: url(https://cdn.mensagenscomamor.com/content/images/m000511278.jpg?v=1&w=463&h=308);
+    background-repeat: no-repeat;
+    flex: 1;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%; 
+}
+.site-conteiner p {
+    text-align: justify;
+    color: #191c03;
+    font-size: 16px;
+    width: 30%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
